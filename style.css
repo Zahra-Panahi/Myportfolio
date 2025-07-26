@@ -1,0 +1,172 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Edu+NSW+ACT+Hand+Pre' ,cursive;
+}
+.navbar{
+  color: #fff;
+}
+header{
+  background-color: #1a388d;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+#logo{
+  font-size: 1.5rem;
+  font-weight: 700px;
+}
+
+h3, h4, h5, h9, h10, h11{
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+  color: #1a388d;
+  text-decoration: bold;
+}
+#profile { 
+  background: linear-gradient(to right , #1a388d, #369ecc);
+  color: #fff;
+  padding: 4rem 2rem;
+  align-items: center;
+  width: 100%;
+  height: 30rem;
+}
+#home img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 120px;
+  height: 120px;
+}
+.section{
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.bglight{
+  background-color: #e2f9fc;
+}
+.skill, .experience, .education{
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skill li, .experience li, .education li{
+  background-color: #d1e7f1;
+  padding: 0.5rem, 1rem;
+  border-radius: 50%;
+}
+.project{
+  justify-content: center;
+}
+#img6{
+  height: 200px;
+  width: 290px;
+}
+#paints img {
+  height: 400px;
+  width: 290px
+}
+
+.coding a{
+  background-color: #d1e7f1;
+  padding: 0.5rem, 1rem;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+footer{
+  background-color: #1a388d;
+  color: #fff;
+}
+h7{
+  font-size: 1.5rem;
+  font-weight: 700px;
+}
+.socialicon a{
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: #e2f9fc;
+  transition: 0.3s;
+}
+.socialicon a:hover{
+  color: #369ecc;
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  nav ul {
+    gap: 3rem;
+  }
+
+  .container {
+    padding: 8rem 6rem;
+  }
+
+  .container img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .section {
+    padding: 6rem 6rem;
+    font-size: 1.2rem;
+  }
+
+  .skill li,
+  .experience li,
+  .education li {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+  }
+
+  .paints > img {
+    width: 30rem;
+    height: 35rem;
+  }
+  .socialicon a {
+    font-size: 2.2rem;
+    margin: 0 1rem;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: 28px;
+  }
+
+  h7 {
+    font-size: 2rem;
+  }
+
+  footer {
+    padding: 2rem 0;
+  }
+}
+.card-img img{
+  height: 300px;
+  width: 100%;
+}
+.card{
+  height: 450px;
+}
+#cv img{
+  height: 400px;
+  width: 290px;
+}
+.card-body h{
+  font-weight: bold;
+}
